@@ -1,0 +1,461 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.div1{
+    height:110px;
+    background-color:gray;
+}
+.div1 .header{
+    color:white;
+    background-color:#D54E21;
+    width:320px;
+    text-align:center;
+    margin-left:520px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius:3px;
+}
+
+.div1 .subheader {
+    line-height: 110px;
+    display: inline-block;
+}
+.div1 .subheader img{
+    width:300px;
+    position:absolute;
+    margin-left:200px;
+    margin-top:-18px;
+    
+}
+.div1 .subheader input{
+    margin-left:880px;
+    position: absolute;
+    width:250px;
+    margin-top:-5px;
+    height:20px;
+    }
+    .div1 .subheader button{
+    
+        margin-left:1110px;
+        margin-top:-5px;
+        position: absolute;
+        height:26px;
+    }
+
+    .div1 .navbar nav {
+     margin-left:140px;
+     padding:15px;
+    
+    }
+.div1 .navbar nav ul li{
+    display: inline-block;
+    /* padding-top:20px; */
+    font-style: bold;
+    margin:8px;
+    color:white;
+    
+    
+    
+}
+
+.div1 .navbar nav ul button{
+    margin-left:190px;
+    padding:10px;
+    background-color:rgb(18, 157, 212);
+    border-radius:5px;
+    border : 1px solid rgb(18, 157, 212);
+    border-style: hidden;
+    color:white;
+}
+
+.div1 .navbar nav ul li:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+ /*end of  div1 */
+
+ .div2{
+     background-color:rgb(54, 131, 161);
+     height:300px;
+     margin:0;
+     text-align: center;
+     /* line-height:300px; */
+     }
+     .div2 .text1 label{
+         font-size:65px;
+        
+         color:white;
+        margin-top:60px;
+        position: absolute;
+        margin-left:-200px;
+     }
+     .div2 .text2 label{
+         font-size:20px;
+         color:white;
+         position: absolute;
+         margin-top:125px;
+         margin-left:-250px;
+         padding:30px;
+         }
+
+         /* end of div 2 */
+
+
+ .div3{
+     background-color:rgb(207, 233, 243);
+     text-align: center;
+     padding:10px;
+     margin-top:25px;
+     width:850px;
+     margin-left:230px;
+ }
+ .div3 label span{
+    color:rgb(23, 115, 151);
+    text-decoration-line:underline;
+ }
+
+ /* end of div 3 */
+
+.div4{
+    height:200px;
+    
+    text-align:center;
+}
+.div4 label{
+    position:absolute;
+    bottom:10px;
+    font-size:22px;
+    font-family: sans-serif;
+    margin-left:-300px;
+    color:gray;
+    
+}
+
+/* end of div4 */
+
+.div5  .theme img{
+    width:850px;
+    height:800px;
+    margin-left:240px;
+    z-index:-1;
+    position:absolute;
+}
+.div5 .phone img{
+    height:550px;
+    width:250px;
+    position: absolute;
+    margin-top:150px;
+    margin-left:970px;
+    z-index:-1;
+}
+
+.div6{
+    background-color:white;
+    height:300px;
+    margin-top:580px;
+    text-align:center;
+    
+}
+.div6 label{
+    position:absolute;
+    margin-top:100px;
+    margin-left:-160px;
+    font-size:60px;
+}
+.div6 span{
+    position:absolute;
+    margin-top:140px;
+    margin-left:-280px;
+    font-size:30px;
+    padding-top:20px;
+    color:gray;
+
+}
+ /* end of div6 */
+
+ .div7{
+     background:url("https://s.w.org/images/home/collage-min.jpg?6")
+     no-repeat center center fixed;
+     background-size: cover;
+     height:100vh;
+ }
+
+    /* end of div7 */
+
+.div8{
+    text-align:center;
+    
+}
+.div8 label{
+  line-height:150px;
+  font-size:20px;
+  color:rgb(14, 118, 160);
+
+}
+
+.div8 label:hover{
+    text-decoration-line:underline;
+}
+
+.div8 hr{
+    width:800px;
+    color:gray;
+}
+
+/* end of div8 */
+
+.div9{
+   height:200px;
+       position:relative;
+
+
+}
+
+
+.div9  label{
+    margin-left:500px;
+    top:130px;
+    position:relative;
+    font-size:50px;
+    color:rgb(56, 52, 52);
+    
+}
+.div9 span{
+    margin-left:450px;
+    margin-top:10px;
+    line-height:310px;
+    font-size:25px;
+    word-spacing:10px;
+    color:gray;
+}
+
+/* end of div9 */
+
+
+.div10 .row{
+    margin-left:390px;
+    margin-top:80px;
+
+}
+
+.div10  hr{
+    width:740px;
+}
+.div10 .row .card{
+    display:inline-block;
+    margin:40px;
+    
+}
+
+.div10 .row .card .card-body{
+    font-size:50px;
+    margin-left:-50px;
+    color:skyblue;
+}
+.div10 .row .card .card-footer{
+    margin-left:-50px;
+}
+
+.div10 .row .card .card-header{
+    border:1px solid rgba(170, 165, 165, 0.589);
+     height:340px;
+     position:absolute;
+      margin-top:-60px; 
+      margin-left:-30px;
+    
+}
+
+.div11 .row{
+    margin-left:350px;
+    margin-top:10px;
+
+    
+
+}
+.div11 .row .card{
+ display:inline-block;
+ padding:40px;
+ margin-top:-5px;
+ margin-right:60px;
+
+
+}
+
+.div11 .row .card .card-body{
+    font-size:50px;
+    /* margin-left:-40px; */
+    /* padding:5px; */
+    color:skyblue;
+
+}
+.div11 .row .card .card-footer label{
+    margin-right:-10px;
+    
+    
+}
+
+/* end of div11 */
+
+.div12 {
+    text-align:center;
+
+}
+.div12 label{
+    margin-top:100px;
+    position:absolute;
+    margin-left:-280px;
+    font-size:20px;
+    color:gray;
+
+}
+.div12 label span{
+    color:skyblue;
+}
+
+/* end of div12 */
+.div13{
+    background:url("https://s.w.org/images/home/community-2.jpg?3")
+    no-repeat center center;
+    background-size:cover;
+    height:100vh;
+    padding:10px;
+    margin-top:300px;
+}
+
+.div13 label{
+    color:white;
+    font-size:45px;
+    margin-top:280px;
+    position: absolute;
+    margin-left:200px;
+}
+.div13 span{
+    color:white;
+    font-size:24px;
+    margin-top:340px;
+    position:absolute;
+    margin-left:200px;
+}
+.div13 input{
+    width:220px;
+    padding:10px;
+    position:absolute;
+    margin-left:200px;
+    margin-top:450px;
+}
+
+/* end of div13 */
+.div14{
+    height:400px;
+    margin-top:-70px;
+    position:absolute;
+    background-color:white;
+    width:100%
+}
+.div14 label{
+    position: absolute;
+    margin-top:100px;
+    font-size:50px;
+    color:rgb(56, 52, 52);
+    margin-left:390px;
+}
+.div14 span{
+    position:absolute;
+    margin-top:160px;
+    font-size:25px;
+    color:rgb(56, 52, 52);
+    margin-left:350px;
+    text-align: center;
+    word-spacing: 10px;
+}
+
+.div14 input{
+    position: absolute;
+    margin-top:250px;
+    font-size:18px;
+    color:white;
+    background-color:rgb(17, 124, 167);
+    margin-left:570px;
+    border-radius:3px;
+    width:200px;
+    padding:10px;
+}
+
+/* end of div14 */
+
+.div15{
+    background-color:white;
+    
+
+}
+.div15 .row{
+ margin-top:400px;
+ margin-left:200px;
+}
+.div15 .row .card{
+    display:inline-block;
+    margin-left:50px;
+
+}
+.div15 .row .card .card-footer img{
+    height:100px;
+    width:80px;
+}
+.div15 .row .card span{
+    color:rgb(33, 146, 190);
+}
+.div15 .row .card span:hover{
+  color:orange;
+  cursor: pointer;
+}
+
+.div15 .row .card .card-footer small{
+    width:25px;
+    border-radius:20px;
+    border:5px solid gray;
+    background-color:gray;
+    color:white;
+}
+.div15 .row .card .card-footer label{
+    padding-top:10px;
+}
+
+/* end of div15 */
+.div16{
+    padding-bottom:10px;
+    padding-top:30px;
+    background-color: rgb(240, 235, 235);
+    margin-top:60px;
+    height:300px;
+}
+.div16 .row{
+    margin-left:170px;
+}
+ .div16 .row ul{
+     display:inline-block;
+     margin-left:30px;
+
+ }
+ .div16 .row ul li{
+     list-style: none;
+     padding:2px;
+     font-size:18px;
+     color:rgb(53, 164, 207);
+     cursor: pointer;
+     
+ }
+
+
+ 
+ .div16 label{
+     word-spacing:10px;
+     line-height: 120px;
+     margin-left:600px;
+     font-size:20px;
+     color:gray;
+ }
+
+
+
